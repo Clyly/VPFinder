@@ -34,32 +34,13 @@ The `data` folder needs the following files:
    - 1000.csv
    - all_samples.csv
    - CVE_dict.json
-   - cwe_1_8_classes.json
-   - cwe_1_8_classes_old.json
-   - cwe_2_4_classes.json
-   - cwe_2_4_clasees_old.json
-   - dataset.csv
-   - dataset_project_relation_layer.csv
-   - embedded_cwe.json
-   - embedded_from_bottom_cwe.json
-   - test_project.csv
-   - test_project.json
-   - train_project.csv
-   - train_project.json
+   - dataset_240904.csv
 
-Files `all_samples.csv`, `CVE_dict.json`, `dataset.csv` and `dataset_project_relation_layer.csv` are shared anonymously at [here](https://zenodo.org/records/10387529?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjY2ZjAyNTY5LTczODYtNGJiOS1hYWJlLTcyZTE3ZjNiOTc2YiIsImRhdGEiOnt9LCJyYW5kb20iOiI5NjVkYjNlNWJmMzM0YTYxNzdiMzNhNzczMjg3NGNiZiJ9.SJtsIHOHPrUsf8DfTHCrCMWt55dOmLSvXbwFXHGhH47yo8IStQe6hva8YflFHpVzci8EIDmFNFrzVtZSLWB_kQ).
+Files `all_samples.csv`, `CVE_dict.json` and `dataset_project_relation_layer.csv` are shared anonymously at [here](https://zenodo.org/records/13906502?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjA0NzFmODg5LWEzZDMtNGMyOC04ZTY3LTIwODgxNTI3N2IyYiIsImRhdGEiOnt9LCJyYW5kb20iOiIxMDA0YWIyNDMyOGU5MzBmNmY1NjliYzg3NTlkNDE0MiJ9.VZ5wWshFyb87rO_QYd5AKTN6VYgKMJsUKkAkU5_tAgg2GAgV9GgEAFyp6JxE44cwBXunyjF45lMtqs5PSbzR5g).
 
 ### 3.2 model_best
 
-The `model_best` folder needs the following files:
-   - VPFinder_multi_f1.txt
-   - VPFinder_multi_model.pth
-   - VPFinder-1+3n+4_multi_f1.txt
-   - VPFinder-1+3n+4_multi_model.pth
-   - VPFinder-h2+h3_multi_f1.txt
-   - VPFinder-h2+h3_multi_model.pth
-
-All files are shared anonymously at [here](https://zenodo.org/records/10393599?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdkNDQzNDMxLWNiMjktNGZkMi05NTVlLWU1ZmIxNzEzMTk5MSIsImRhdGEiOnt9LCJyYW5kb20iOiJmMGRiNjdjZWU5ZGRhZTM1NGVmMzY3NjFiMTVkOTVmZCJ9.bKQueNbcMcwJI0hU_qXyW_p_oKNdR_J0MdAC7zDjN3DLn5pS1ph9GjqHJRryI9Lrb8i9c4n4mtw0ZhorxYRzOw).
+The best model parameters will be stored here.
 
 ### 3.3 mybert
 
@@ -87,7 +68,7 @@ The file is shared anonymously at [here](https://zenodo.org/records/10388783?tok
 
 ## 4 Dataset
 
-VPFinder uses the dataset `data/dataset_project_relation_layer.csv`, which is also used by Zhou *et, al.*'work and Sun *et, al.*'s work.
+VPFinder uses the dataset `data/dataset_240904.csv`, which is also used by Zhou *et, al.*'work and Sun *et, al.*'s work.
 Pan *et, al.*'s work uses the dataset `data/train_project.json`, `data/validation.json` and `data/test_project.json`.
 
 If you want to create a new dataset from scratch, the initial dataset is `dataset.csv`.
