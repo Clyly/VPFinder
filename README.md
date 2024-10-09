@@ -82,17 +82,6 @@ python train_VPFinder_binary.py
 ```
 For running baseline [MemVul](https://doi.org/10.1145/3540250.3549156), limited by the size of uploaded files, we are unable to provide relevant files, see more details [here](https://github.com/panshengyi/MemVul).
 
-Because three models have slow convergence rates, we use alternative models for training.
-The parameters obtained from the training are then used for testing original models.
-The model parameters have been saved in the `model_best` folder, and the code files for alternative models begin with `for_train`.
-```
-python for_train_VPFinder_multi.py
-```
-```
-python test_VPFinder_multi.py
-```
-
-
 ## 6 Production of the Dataset
 We use the [Github Rest API](https://docs.github.com/en/rest) to get data.
 Please make sure you have a token and then change the fields `Your Token Here` in the python files.
