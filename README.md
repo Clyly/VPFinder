@@ -139,19 +139,3 @@ Add commit messages and patches to dataset.
 python preprocess_dataset_patch_and_message.py
 ```
 We have complete dataset `data/dataset.csv`.
-
-## 7 CWE Embedding
-We have our cwe information ready, here is our work flow.
-
-Concatenate CWE information and built CWE tree based on the relationships between nodes.
-```
-python CWE_relationship.py
-```
-Embed CWE information and then bottom-up aggregate the vectors.
-```
-python emb_tree.py
-```
-Find the nodes according to the requirements, and the order corresponds to the labels in the dataset `data/dataset_project_relation_layer.csv`, which serves as another part of the model input.
-```
-python multi_class_embedding.py
-```
