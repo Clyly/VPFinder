@@ -10,7 +10,7 @@ Datasets and codes for submitted papers.
    GPU: NVIDIA A100-SXM
    
 2. Language: Python (v3.8)
-3. CUDA: 11.3
+3. CUDA: 11.1
 4. Python packages:
    - [Allennlp 2.4.0](https://allennlp.org/)
    - [Pytorch 2.1.0](https://pytorch.org/)
